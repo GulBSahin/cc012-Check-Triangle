@@ -6,35 +6,30 @@
 }
 
 .container{
-    font-size: 2rem;
-    border: 2px solid red;
+    font-size: 1.2rem;
     text-align: center;
     
 }
 
 input{
     width: 50%;
-    height: 3em;
+    height: 1.4em;
     border-radius: 10px;
     text-align: center;
     font-size: 1rem;
 
 }
 
-/* input:focus{
-    font-size: 1rem;
-    text-align: center;
-} */
 input::placeholder{
     font-size: 1rem;
     text-align: center;
 }
 #submit{
-    margin-top: 2rem;
+    margin-top: 1rem;
     background-color: #695185;
     color: black;
     border: 2px solid white; 
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 #submit:hover {
     background-color: white;
@@ -42,3 +37,9 @@ input::placeholder{
     border: 2px solid #695185; /* Green */
     
   }
+.image-container{
+    text-align: center;
+}
+img{
+    height:15rem;
+}
