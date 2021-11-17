@@ -31,12 +31,13 @@ Triangle.prototype.check=() =>{
         length2>length1+length3||
         length3>length1+length2){
         result.innerHTML="This is not a valid triangle!!!";  
-    }else if(length1==length2||length3==length1||length3==length2){
-        result.innerHTML="triangle is equilateral!"; 
-        image.src="equilateral.png" 
-    }else if(length1==length2==length3){
+    }else if(length1==length2||length3||length1||length3==length2){
         result.innerHTML="triangle is isosceles!";
         image.src="isosceles.png"   
+    }else if(length1==length2&&length3==length1&&length3==length2){
+        result.innerHTML="triangle is equilateral!"; 
+        image.src="equilateral.png" 
+    
     }else{ 
         result.innerHTML="triangle is scalene!";  
         image.src="scalene.png" 
