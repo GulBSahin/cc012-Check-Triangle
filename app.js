@@ -34,7 +34,7 @@ Triangle.prototype.check=() =>{
     }else if(length1==length2&&length3==length1&&length3==length2){
         result.innerHTML="triangle is equilateral!"; 
         image.src="equilateral.png" 
-    }else if(length1==length2||length3||length1||length3==length2){
+    }else if(length1==length2||length3==length1||length3==length2){
         result.innerHTML="triangle is isosceles!";
         image.src="isosceles.png"   
     }else{ 
